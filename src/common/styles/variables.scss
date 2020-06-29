@@ -1,0 +1,75 @@
+//#ffffff
+$white1000: rgba(255, 255, 255, 1);
+$white800: rgba(255, 255, 255, 0.8);
+$white700: rgba(255, 255, 255, 0.7);
+$white500: rgba(255, 255, 255, 0.5);
+$white400: rgba(255, 255, 255, 0.4);
+$white300: rgba(255, 255, 255, 0.3);
+$white100: rgba(255, 255, 255, 0.1);
+$white0: rgba(255, 255, 255, 0);
+
+//text
+$black1000: rgba(45, 45, 45, 1);
+$black700: rgba(45, 45, 45, 0.7);
+$black450: rgba(45, 45, 45, 0.45);
+
+//links
+$blue1000: rgba(31, 138, 237, 1);
+
+//main color
+$orange1000: rgba(245, 127, 35, 1);
+
+//light orange
+$lightOrange1000: rgba(252, 147, 73, 1);
+
+//middle gray
+$middleGray1000: rgba(151, 151, 151, 1);
+$middleGray700: rgba(151, 151, 151, 0.7);
+$middleGray600: rgba(151, 151, 151, 0.6);
+$middleGray500: rgba(151, 151, 151, 0.5);
+$middleGray250: rgba(151, 151, 151, 0.25);
+
+//light gray
+$lightGray1000: rgba(238, 238, 238, 1);
+$lightGray500: rgba(238, 238, 238, 0.5);
+
+//red
+$red: rgba(255, 23, 23, 1);
+
+//green
+$green: #38B554;
+
+//borderColor
+$borderColor: #EFEFEF;
+
+//social
+$vk: #4F78B4;
+$facebook: #475993;
+$mail: #005FF9;
+$ok: #FA941D;
+$instagram: linear-gradient(214.65deg, #7024C4 12.61%, #C4286A 52.07%, #E09B3D 86.88%);
+$whatsApp: linear-gradient(180deg, #71CF5E 0%, #60B844 100%);
+$telegram: linear-gradient(203.21deg, #37AEE2 21.68%, #1E96C8 69.99%);
+$viber: #8E24AA;
+
+//boxShadow
+$boxShadow: 0 2px 6px rgba(36, 45, 65, 0.25);
+
+//maxWidth
+$maxWidth: 64rem;
+
+//offset
+$leftRightOffset: 1.875rem;
+$topBottomOffset: 2.5rem;
+
+$tablet: 600px;
+$laptop: 1024px;
+$desktop: 1400px;
+$only-mobile: 599px;
+
+$maxWidthLaptop: 1024px;
+$maxWidthDesktop: 1400px;
+
+$regular: 400;
+$medium: 500;
+$bold: 700;

@@ -1,0 +1,14 @@
+{
+    "compileNamespace": "cjs",
+    "extractBabelOptions": {},
+    "fallbackLocale": "",
+    "sourceLocale": "",
+    "localeDir": "<rootDir>/locale",
+    "srcPathDirs": [
+        "src"
+    ],
+    "srcPathIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "format": "lingui"
+}

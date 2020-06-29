@@ -1,0 +1,83 @@
+@import "~common/styles/variables.scss";
+
+@mixin center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin visuallyHidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+@mixin clearList {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@mixin image {
+  width: 100%;
+  height: auto;
+}
+
+@mixin fontFamily {
+  font-family: 'Roboto', 'Segoe UI', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+@mixin font($size, $line-height) {
+  font-size: $size;
+  line-height: $line-height;
+}
+
+@mixin font-set($size, $line-height, $letter-spacing) {
+  font-size: $size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin pseudoIcon($source, $iconSize, $iconOffset, $imageSize) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+
+  display: block;
+  width: $iconSize;
+  height: $iconSize*1.2;
+  margin-right: $iconOffset;
+
+  background-image: url($source);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: $imageSize;
+}
+
+@mixin from($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin until($breakpoint) {
+  @media screen and (max-width: $breakpoint - 1px) {
+    @content;
+  }
+}
+

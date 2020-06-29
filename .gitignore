@@ -1,0 +1,8 @@
+node_modules
+./.idea
+.idea
+yarn-error.log
+release
+build
+locale/_build
+src/async-requires.js

@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "esnext",
+    "lib": ["es6", "dom", "es2015", "es2016"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "target": "es2016",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "core/*": ["src/core/*"],
+      "types/*": ["src/types/*"],
+      "common/*": ["src/common/*"],
+      "UIKit/*": ["src/UIKit/*"],
+      "blocks/*": ["src/blocks/*"],
+      "containers/*": ["src/containers/*"],
+      "components/*": ["src/components/*"],
+      "hooks/*": ["src/hooks/*"],
+      "pages/*": ["src/pages/*"],
+      "data/*": ["src/data/*"],
+      "static/*": ["src/static/*"],
+      "locale/*": ["locale/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "./webpack.config.js",
+    "tools",
+    ".storybook",
+    "storybook-static"
+  ]
+}

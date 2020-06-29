@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+
+  font-family: 'Roboto', 'Segoe UI', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+.scroll-locked {
+  overflow: hidden;
+}
+
+//a, input {
+//  -webkit-overflow-scrolling: touch;
+//}

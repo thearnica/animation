@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "name": "example",
+  "builds": [
+    {
+      "src": "/storybook/**/*",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.woff?",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.png",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.jpg",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.svg",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/storybook"
+    },
+    {
+      "src": "/([^.]*)",
+      "dest": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+window['STORYBOOK_ENV'] = 'react';
